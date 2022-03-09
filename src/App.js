@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { products as dataProduct } from "./utils/data";
-import AppleImage from "./assets/apple-logo.png";
-import GoogleImage from "./assets/google.png";
 import "./App.css";
 
 const App = () => {
@@ -121,9 +119,9 @@ const App = () => {
                                 >
                                   Navigate{" "}
                                   <img
-                                    src={GoogleImage}
+                                    src="https://storage.googleapis.com/geo-locations/google.71d9a949.png"
                                     width={25}
-                                    alt="apple icon"
+                                    alt="Google icon"
                                     style={{ marginLeft: 10 }}
                                   />
                                 </a>
@@ -144,7 +142,7 @@ const App = () => {
                                 >
                                   Navigate{" "}
                                   <img
-                                    src={AppleImage}
+                                    src="https://storage.googleapis.com/geo-locations/apple-logo.283659c3.png"
                                     width={25}
                                     alt="apple icon"
                                     style={{ marginLeft: 10 }}
