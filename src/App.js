@@ -61,6 +61,22 @@ const App = () => {
                 Rock &amp; Road Base
               </a>
             </li>
+            <li className="menu-item menu-item-type-post_type menu-item-object-ec_store current-menu-item menu-item-900">
+              <a
+                href="!#"
+                onClick={(event) => handleOnCategoryClicked(event, "Sand")}
+              >
+                Sand
+              </a>
+            </li>
+            <li className="menu-item menu-item-type-post_type menu-item-object-ec_store current-menu-item menu-item-900">
+              <a
+                href="!#"
+                onClick={(event) => handleOnCategoryClicked(event, "Building")}
+              >
+                Building
+              </a>
+            </li>
           </ul>
 
           <section id="content" style={{ marginTop: 50 }}>
